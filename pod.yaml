@@ -1,0 +1,12 @@
+apiVersion: V1
+Kind: Pod
+metedata:
+  name: Pod1
+Spec:
+  Containers:
+  - name: Container1
+    image: nginx
+    Ports:
+    - ContainerPort: 80
+
+  
