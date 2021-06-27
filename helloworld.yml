@@ -10,4 +10,4 @@ spec:
     image: arjunachari12/k8s-demo
     ports:
     - name: nodejs-port
-      image: afakharany/watcher:latest
+      containerPort: 3000
